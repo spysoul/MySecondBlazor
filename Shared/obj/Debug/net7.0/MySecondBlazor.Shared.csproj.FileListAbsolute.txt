@@ -1,0 +1,11 @@
+E:\RepositorioGit\MySecondBlazor\Shared\bin\Debug\net7.0\MySecondBlazor.Shared.deps.json
+E:\RepositorioGit\MySecondBlazor\Shared\bin\Debug\net7.0\MySecondBlazor.Shared.dll
+E:\RepositorioGit\MySecondBlazor\Shared\bin\Debug\net7.0\MySecondBlazor.Shared.pdb
+E:\RepositorioGit\MySecondBlazor\Shared\obj\Debug\net7.0\MySecondBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\RepositorioGit\MySecondBlazor\Shared\obj\Debug\net7.0\MySecondBlazor.Shared.AssemblyInfoInputs.cache
+E:\RepositorioGit\MySecondBlazor\Shared\obj\Debug\net7.0\MySecondBlazor.Shared.AssemblyInfo.cs
+E:\RepositorioGit\MySecondBlazor\Shared\obj\Debug\net7.0\MySecondBlazor.Shared.csproj.CoreCompileInputs.cache
+E:\RepositorioGit\MySecondBlazor\Shared\obj\Debug\net7.0\MySecondBlazor.Shared.dll
+E:\RepositorioGit\MySecondBlazor\Shared\obj\Debug\net7.0\refint\MySecondBlazor.Shared.dll
+E:\RepositorioGit\MySecondBlazor\Shared\obj\Debug\net7.0\MySecondBlazor.Shared.pdb
+E:\RepositorioGit\MySecondBlazor\Shared\obj\Debug\net7.0\ref\MySecondBlazor.Shared.dll

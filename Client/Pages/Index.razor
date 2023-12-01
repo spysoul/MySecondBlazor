@@ -1,0 +1,28 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<DismissableAlert @bind-Show="ShowAlert" @ref="alerta">
+    <span class="oi oi-check mr-2" aria-hidden="true"></span>
+    <strong>Blazor is so cool!</strong>
+</DismissableAlert>
+
+<button @onclick="ToggleAlert" class="btn btn-success">Toggle</button>
+
+<Timer TimeInSeconds="5" Tick="@(() => alerta.Dismiss())" />
+
+@* <SurveyPrompt Title="How is Blazor working for you?" /> *@
+
+@code {
+    public bool ShowAlert {get; set;} = true;
+
+    public void ToggleAlert()
+    {
+        Console.WriteLine("Toggle");
+        ShowAlert = !ShowAlert;
+    }
+
+    private DismissableAlert alerta = default!;
+}

@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "e:\\RepositorioGit\\MySecondBlazor\\Server\\MySecondBlazor.Server.csproj": {}
+  },
+  "projects": {
+    "e:\\RepositorioGit\\MySecondBlazor\\Client\\MySecondBlazor.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\RepositorioGit\\MySecondBlazor\\Client\\MySecondBlazor.Client.csproj",
+        "projectName": "MySecondBlazor.Client",
+        "projectPath": "e:\\RepositorioGit\\MySecondBlazor\\Client\\MySecondBlazor.Client.csproj",
+        "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
+        "outputPath": "e:\\RepositorioGit\\MySecondBlazor\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dgonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
+                "projectPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "e:\\RepositorioGit\\MySecondBlazor\\Server\\MySecondBlazor.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\RepositorioGit\\MySecondBlazor\\Server\\MySecondBlazor.Server.csproj",
+        "projectName": "MySecondBlazor.Server",
+        "projectPath": "e:\\RepositorioGit\\MySecondBlazor\\Server\\MySecondBlazor.Server.csproj",
+        "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
+        "outputPath": "e:\\RepositorioGit\\MySecondBlazor\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dgonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "e:\\RepositorioGit\\MySecondBlazor\\Client\\MySecondBlazor.Client.csproj": {
+                "projectPath": "e:\\RepositorioGit\\MySecondBlazor\\Client\\MySecondBlazor.Client.csproj"
+              },
+              "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
+                "projectPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj",
+        "projectName": "MySecondBlazor.Shared",
+        "projectPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj",
+        "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
+        "outputPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dgonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
