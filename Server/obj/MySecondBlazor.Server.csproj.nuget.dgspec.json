@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
-                "projectPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj"
+              "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
+                "projectPath": "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj"
               }
             }
           }
@@ -112,8 +112,8 @@
               "e:\\RepositorioGit\\MySecondBlazor\\Client\\MySecondBlazor.Client.csproj": {
                 "projectPath": "e:\\RepositorioGit\\MySecondBlazor\\Client\\MySecondBlazor.Client.csproj"
               },
-              "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
-                "projectPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj"
+              "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
+                "projectPath": "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
+    "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj",
+        "projectUniqueName": "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj",
         "projectName": "MySecondBlazor.Shared",
-        "projectPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj",
+        "projectPath": "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj",
         "packagesPath": "C:\\Users\\dgonzalez\\.nuget\\packages\\",
-        "outputPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\obj\\",
+        "outputPath": "e:\\RepositorioGit\\MySecondBlazor\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dgonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",

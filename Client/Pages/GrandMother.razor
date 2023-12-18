@@ -1,0 +1,39 @@
+<h3>GrandMother</h3>
+
+@gmData.Count
+
+<CascadingValue Value="@this.gmData">
+    @ChildContent
+</CascadingValue>
+
+@code {
+    [CascadingParameter()]
+    public CounterData gmData { get; set; } = default!;
+
+    [Parameter]
+    public int Contador
+    {
+        get
+        {
+            return gmData.Count;
+        }
+        set
+        {
+            if (gmData is null)
+            {
+                gmData = new CounterData();
+            }
+            gmData.Count = value;
+        }
+    }
+
+    @* public CounterData data = new CounterData{ Count = 10}; *@
+
+    protected override void OnInitialized()
+    {
+        gmData.CountChanged += () => this.StateHasChanged();
+    }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; } = default!;
+}

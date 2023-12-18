@@ -1853,8 +1853,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
-              "projectPath": "E:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj"
+            "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj": {
+              "projectPath": "e:\\RepositorioGit\\MySecondBlazor\\Shared\\MySecondBlazor.Shared.csproj"
             }
           }
         }

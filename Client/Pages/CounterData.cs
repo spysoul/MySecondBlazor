@@ -3,7 +3,7 @@ namespace MySecondBlazor.Client.Pages.Components;
 public class CounterData
 {
     private int count;
-    public Action<int>? CountChanged { get; set; }
+    public Action? CountChanged { get; set; }
 
     public int Count
     {
@@ -13,7 +13,7 @@ public class CounterData
             if (value != count)
             {
                 count = value;
-                CountChanged?.Invoke(count);
+                CountChanged?.Invoke();
             }
         }
     }

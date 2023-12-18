@@ -1,0 +1,74 @@
+@implements IDisposable
+
+<h3>LifeCycle Component</h3>
+
+@counter
+
+@code {
+    public LifeCycle()
+    {
+        Console.WriteLine("Inside Constructor");
+    }
+
+    private int counter;
+    private bool firstParametersSet = true;
+
+    [Parameter]
+    public int Counter
+    {
+        get => counter;
+        set
+        {
+            counter = value;
+            Console.WriteLine($"Counter set to {counter}");
+        }
+    }
+
+    public override Task SetParametersAsync(ParameterView parameters)
+    {
+        Console.WriteLine("SetParametersAync called");
+
+        if (parameters.TryGetValue(nameof(Counter), out int x))
+        {
+            if (x % 2 == 0)
+            {
+                return base.SetParametersAsync(parameters);
+            }
+
+            if (firstParametersSet)
+            {
+                firstParametersSet = false;
+                StateHasChanged();
+            }
+        }
+
+        return Task.CompletedTask;
+
+    }
+
+    protected override void OnParametersSet()
+    {
+        Console.WriteLine("OnParametersSet called");
+    }
+
+    protected override void OnInitialized()
+    {
+        Console.WriteLine("OnInitialized called");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        Console.WriteLine($"OnAfterRender called with firsRender ={firstRender}");
+    }
+
+    protected override bool ShouldRender()
+    {
+        Console.WriteLine("ShouldRender called");
+        return false;
+    }
+
+    public void Dispose()
+    {
+        Console.WriteLine("Dispose");
+    }
+}

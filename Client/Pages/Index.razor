@@ -14,9 +14,17 @@
 <Timer TimeInSeconds="5" Tick="@(() => alerta.Dismiss())" />
 
 @* <SurveyPrompt Title="How is Blazor working for you?" /> *@
+<GrandMother Contador=10>
+    <GrandMother>
+        <GrandChild />
+        <DismissableAlert Show="ShowAlert">
+            <GrandChild />
+        </DismissableAlert>
+    </GrandMother>
+</GrandMother>
 
 @code {
-    public bool ShowAlert {get; set;} = true;
+    public bool ShowAlert { get; set; } = true;
 
     public void ToggleAlert()
     {
